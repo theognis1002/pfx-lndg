@@ -12,6 +12,17 @@ const CertificationList = () => (
   >
     <div className="flex flex-col gap-6">
       <CertificationCard
+        name="AWS Certified Developer"
+        description=""
+        link="/"
+        certDate="9/2024"
+        img={{
+          src: '/assets/images/aws.png',
+          alt: 'AWS Certified Developer',
+        }}
+        category={<></>}
+      />
+      <CertificationCard
         name="AWS Certified Solutions Architect - Associate"
         description=""
         link="/"
