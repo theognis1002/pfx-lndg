@@ -54,6 +54,7 @@ const Resume = () => (
           { color: ColorTags.EMERALD, label: 'Django' },
           { color: ColorTags.ROSE, label: 'Flask' },
           { color: ColorTags.SKY, label: 'React.js' },
+          { color: ColorTags.GRAY, label: 'TypeScript' },
           { color: ColorTags.YELLOW, label: 'JavaScript' },
           { color: ColorTags.EMERALD, label: 'Node.js' },
           { color: ColorTags.ORANGE, label: 'AWS' },
@@ -81,6 +82,7 @@ const Resume = () => (
         tags={[
           { color: ColorTags.EMERALD, label: 'Django' },
           { color: ColorTags.SKY, label: 'Django Rest Framework' },
+          { color: ColorTags.GRAY, label: 'TypeScript' },
           { color: ColorTags.YELLOW, label: 'JavaScript' },
           { color: ColorTags.SKY, label: 'React.js' },
           { color: ColorTags.EMERALD, label: 'Node.js' },

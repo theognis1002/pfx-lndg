@@ -23,6 +23,17 @@ const CertificationList = () => (
         category={<></>}
       />
       <CertificationCard
+        name="Microsoft Certified: Azure Fundamentals"
+        description=""
+        link="/"
+        certDate="10/2022"
+        img={{
+          src: '/assets/images/azure.png',
+          alt: 'Microsoft Certified: Azure Fundamentals',
+        }}
+        category={<></>}
+      />
+      <CertificationCard
         name="AWS Certified Solutions Architect - Associate"
         description=""
         link="/"
@@ -41,17 +52,6 @@ const CertificationList = () => (
         img={{
           src: '/assets/images/aws.png',
           alt: 'AWS Certified Cloud Practitioner',
-        }}
-        category={<></>}
-      />
-      <CertificationCard
-        name="Microsoft Certified: Azure Fundamentals"
-        description=""
-        link="/"
-        certDate="10/2022"
-        img={{
-          src: '/assets/images/azure.png',
-          alt: 'Microsoft Certified: Azure Fundamentals',
         }}
         category={<></>}
       />
