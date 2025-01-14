@@ -12,6 +12,28 @@ const CertificationList = () => (
   >
     <div className="flex flex-col gap-6">
       <CertificationCard
+        name="Google Cloud Associate Cloud Engineer"
+        description=""
+        link="/"
+        certDate="1/2025"
+        img={{
+          src: '/assets/images/google-cloud.png',
+          alt: 'Google Cloud Associate Cloud Engineer',
+        }}
+        category={<></>}
+      />
+      <CertificationCard
+        name="Google Cloud Cloud Digital Leader"
+        description=""
+        link="/"
+        certDate="12/2024"
+        img={{
+          src: '/assets/images/google-cloud.png',
+          alt: 'Google Cloud Cloud Digital Leader',
+        }}
+        category={<></>}
+      />
+      <CertificationCard
         name="AWS Certified Developer"
         description=""
         link="/"

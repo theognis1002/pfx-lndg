@@ -1,9 +1,10 @@
 import { GradientText, Section } from 'astro-boilerplate-components';
 
 import awsLogo from '../../public/assets/images/aws.png';
-import azureLogo from '../../public/assets/images/azure.png';
+// import azureLogo from '../../public/assets/images/azure.png';
 import djangoLogo from '../../public/assets/images/django.png';
 import golangLogo from '../../public/assets/images/golang.png';
+import googleCloudLogo from '../../public/assets/images/google-cloud.png';
 import mongoLogo from '../../public/assets/images/mongo.png';
 import mysqlLogo from '../../public/assets/images/mysql.png';
 import nextjsLogo from '../../public/assets/images/nextjs.png';
@@ -129,12 +130,21 @@ const Skills = () => (
             <td className="p-3">
               <img
                 className="hover:translate-y-1"
+                src={googleCloudLogo.src}
+                alt="Google Cloud Cloud Experience"
+                width={260}
+                height={224}
+              />
+            </td>
+            {/* <td className="p-3">
+              <img
+                className="hover:translate-y-1"
                 src={azureLogo.src}
                 alt="Azure Cloud Experience"
                 width={260}
                 height={224}
               />
-            </td>
+            </td> */}
           </tr>
         </tbody>
       </table>
