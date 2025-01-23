@@ -15,7 +15,7 @@ const Hero = () => (
       }
       description={
         <>
-          Lead Software Engineer with over 8+ years of experience in full stack
+          Lead Software Engineer with over 9+ years of experience in full stack
           development, software engineering, and software management. a proven
           track record of driving innovation and delivering high-impact
           solutions within the financial services and small business lending

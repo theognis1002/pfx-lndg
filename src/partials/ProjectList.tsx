@@ -16,6 +16,23 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
+        name="Django - Migrations of Madness (Article)"
+        description="A comprehensive guide to handling Django's powerful but often misunderstood migrations system. This article explores common challenges Djangonauts face with database migrations, from inconsistent histories to conflicting dependencies. Learn when to create and run migrations, how to keep them synchronized across environments, and strategies for resolving the various issues that can arise in this critical aspect of Django development."
+        link="https://medium.com/@michaeljamesmcclelland/migrations-of-madness-99d82e5e7f6b"
+        img={{
+          src: '/assets/images/django.png',
+          alt: 'Migrations of Madness',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.GREEN}>Django</Tags>
+            <Tags color={ColorTags.LIME}>MySQL</Tags>
+            <Tags color={ColorTags.GRAY}>PostgreSQL</Tags>
+            <Tags color={ColorTags.BLUE}>RDBMS</Tags>
+          </>
+        }
+      />
+      <Project
         name="Limee AI"
         description="Limee provides innovative Voice AI agents that transform how restaurants receive phone calls and handle orders. 
         By leveraging open-source large language models (LLMs) technology offers a smart, seamless alternative to traditional staffing and call center solutions - enhancing both efficiency and customer satisfaction."

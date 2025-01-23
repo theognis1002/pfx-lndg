@@ -3,8 +3,10 @@ import { GradientText, Section } from 'astro-boilerplate-components';
 import awsLogo from '../../public/assets/images/aws.png';
 // import azureLogo from '../../public/assets/images/azure.png';
 import djangoLogo from '../../public/assets/images/django.png';
+import dockerLogo from '../../public/assets/images/docker.png';
 import golangLogo from '../../public/assets/images/golang.png';
 import googleCloudLogo from '../../public/assets/images/google-cloud.png';
+import kubernetesLogo from '../../public/assets/images/kubernetes.png';
 import mongoLogo from '../../public/assets/images/mongo.png';
 import mysqlLogo from '../../public/assets/images/mysql.png';
 import nextjsLogo from '../../public/assets/images/nextjs.png';
@@ -145,6 +147,35 @@ const Skills = () => (
                 height={224}
               />
             </td> */}
+          </tr>
+          <tr className="h-56">
+            {/* <td className="p-3">
+              <img
+                className="hover:translate-y-1"
+                src={azureLogo.src}
+                alt="Azure Cloud Experience"
+                width={260}
+                height={224}
+              />
+            </td> */}
+            <td className="p-3">
+              <img
+                className="hover:translate-y-1"
+                src={dockerLogo.src}
+                alt="Docker / Docker Compose Experience"
+                width={260}
+                height={224}
+              />
+            </td>
+            <td className="p-3">
+              <img
+                className="hover:translate-y-1"
+                src={kubernetesLogo.src}
+                alt="Kubernetes Experience"
+                width={260}
+                height={224}
+              />
+            </td>
           </tr>
         </tbody>
       </table>
