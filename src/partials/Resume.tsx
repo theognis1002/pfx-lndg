@@ -12,10 +12,29 @@ const Resume = () => (
   >
     <div className="flex flex-col gap-6">
       <JobCard
+        title={'Co-Founder / Technical Lead - Stealth Mode AI Startup'}
+        dateRange={'7/2024 - Present'}
+        tags={[
+          { color: ColorTags.EMERALD, label: 'Python/Django' },
+          { color: ColorTags.SKY, label: 'Django Rest Framework' },
+          { color: ColorTags.SLATE, label: 'PostgreSQL' },
+          { color: ColorTags.LIME, label: 'Celery' },
+          { color: ColorTags.YELLOW, label: 'TypeScript' },
+          { color: ColorTags.GREEN, label: 'Next.js' },
+          { color: ColorTags.GRAY, label: 'AI / LLMs' },
+          { color: ColorTags.ORANGE, label: 'AWS' },
+        ]}
+        description={[
+          `Spearheaded the end-to-end development of a SaaS application powered by AI/LLM's, leveraging a robust technology stack including Python, Django, React.js, Next.js, Node.js, Large Language Models (LLM's), PostgreSQL, Redis, Celery, Terraform, and AWS.`,
+          `Developed and implemented an AI-driven workflow integrating real-time phone call handling with external partner API's and point-of-sale (POS) systems, enhancing operational efficiency and user experience for our customers`,
+          `Led a startup team of 3 offshore backend and frontend developers, driving the successful completion of multiple high-impact projects on time and within budget.`,
+        ]}
+      />
+      <JobCard
         title={'Director of Software Engineering - Summit Technology Group'}
         dateRange={'9/2021 - 7/2024'}
         tags={[
-          { color: ColorTags.EMERALD, label: 'Django' },
+          { color: ColorTags.EMERALD, label: 'Python/Django' },
           { color: ColorTags.SKY, label: 'Django Rest Framework' },
           { color: ColorTags.SLATE, label: 'PostgreSQL' },
           { color: ColorTags.LIME, label: 'Celery' },
@@ -31,12 +50,12 @@ const Resume = () => (
                 that ensured alignment with business objectives and effectively
                 addressed customer needs.`,
           `Directed the development of scalable and robust software
-                solutions using Python (Django), JavaScript (Vue.js), and other
-                relevant technologies.`,
+                solutions using Python (Django), JavaScript (Vue.js), Node.js, PostgreSQL, Docker/Kubernetes, and other
+                cutting edge technologies.`,
           `Championed the adoption of best practices and industry
                 standards, driving continuous improvement and technical
                 excellence, which led to a 25% decrease in development time and
-                a 20% increase in overall code quality.`,
+                a significant increase in overall code quality.`,
           `Conducted daily code reviews and mentored junior to senior
                 developers, improving overall code quality and ensure adherence
                 to best practices`,
@@ -51,7 +70,7 @@ const Resume = () => (
         title={'Senior Fullstack Engineer - Bluestone Analytics, CACI'}
         dateRange={'4/2020 - 9/2021'}
         tags={[
-          { color: ColorTags.EMERALD, label: 'Django' },
+          { color: ColorTags.EMERALD, label: 'Python/Django' },
           { color: ColorTags.ROSE, label: 'Flask' },
           { color: ColorTags.SKY, label: 'React.js' },
           { color: ColorTags.GRAY, label: 'TypeScript' },
@@ -80,7 +99,7 @@ const Resume = () => (
         title={'Lead Software Engineer - Ticket Edge'}
         dateRange={'4/2016 - 4/2020'}
         tags={[
-          { color: ColorTags.EMERALD, label: 'Django' },
+          { color: ColorTags.EMERALD, label: 'Python/Django' },
           { color: ColorTags.SKY, label: 'Django Rest Framework' },
           { color: ColorTags.GRAY, label: 'TypeScript' },
           { color: ColorTags.YELLOW, label: 'JavaScript' },
