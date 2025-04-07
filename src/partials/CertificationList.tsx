@@ -12,6 +12,17 @@ const CertificationList = () => (
   >
     <div className="flex flex-col gap-6">
       <CertificationCard
+        name="Google Cloud Professional Cloud Architect"
+        description=""
+        link="https://www.credly.com/badges/a9b2e9bf-69ef-4e32-a0b4-2daffdcb6846/linked_in_profile"
+        certDate="4/2025"
+        img={{
+          src: '/assets/images/google-cloud.png',
+          alt: 'Google Cloud Professional Cloud Architect',
+        }}
+        category={<></>}
+      />
+      <CertificationCard
         name="Google Cloud Associate Cloud Engineer"
         description=""
         link="https://www.credly.com/badges/dc399772-33e6-4cf9-b7c2-33ddb2bd65ad/linked_in_profile"
