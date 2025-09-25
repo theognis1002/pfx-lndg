@@ -13,22 +13,25 @@ export const siteConfig = {
   skills: ["Python", "Django", "React", "Next.js", "Vue.js", "Go", "PostgreSQL", "MySQL", "MongoDB", "Redis", "AWS", "Google Cloud", "Docker", "Kubernetes"],
   projects: [
     {
-      name: "AI-Driven SaaS Platform",
+      name: "MCP Gateway & Registry",
       description:
-        "End-to-end development of a SaaS application powered by AI/LLMs, integrating real-time phone call handling with external partner APIs and point-of-sale systems",
-      skills: ["Python", "Django", "React", "Next.js", "PostgreSQL", "Redis", "Celery", "AWS", "AI/LLMs"],
+        "Production-ready API gateway for Model Context Protocol (MCP) servers providing enterprise-grade infrastructure with authentication, logging, rate limiting, and multi-protocol transport support. Translates REST APIs into MCP and bridges multiple transports for LLM integration.",
+      link: "https://github.com/theognis1002/mcp-gateway",
+      skills: ["Go", "PostgreSQL", "Next.js", "TypeScript", "MCP", "LLM", "API Gateway"],
     },
     {
-      name: "Financial Services Platform",
+      name: "Chatterbox - AI Social Media Assistant",
       description:
-        "Scalable software solutions for small business lending sector using modern technologies and microservices architecture",
-      skills: ["Python", "Django", "Vue.js", "PostgreSQL", "Docker", "Kubernetes", "AWS"],
+        "Chrome extension that uses AI to generate contextual replies for X/Twitter and LinkedIn. Features multiple templates for quick crafting of engaging responses and seamless social media interactions.",
+      link: "https://github.com/theognis1002/chatterbox",
+      skills: ["TypeScript", "Chrome Extension", "AI", "Social Media APIs"],
     },
     {
-      name: "Enterprise API & Data Processing",
+      name: "Spotify Clone for Ticketing Industry",
       description:
-        "Enterprise-level API development with OSINT data collection, ETL pipelines, and internal applications utilizing cloud services",
-      skills: ["Node.js", "Python", "Flask", "Elasticsearch", "AWS", "Lambda", "API Gateway"],
+        "Custom Spotify UI clone built for a client in the resale ticketing industry. Features modern responsive design with seamless user experience for ticket browsing and management.",
+      link: "https://www.seapigtickets.com/",
+      skills: ["TypeScript", "Next.js", "TailwindCSS", "Netlify", "UI/UX Design"],
     },
   ],
   experience: [
