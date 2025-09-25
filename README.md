@@ -1,6 +1,6 @@
-<img width="1512" height="982" alt="Michael McClelland Portfolio" src="./public/portfolio-preview.png" />
+<img width="1512" height="982" alt="Portfolio" src="./public/portfolio-preview.png" />
 
-# Michael McClelland - Portfolio
+# Portfolio
 
 A modern, minimalist portfolio site built with Astro and Tailwind CSS. Showcasing my skills, experience, and projects as a Lead Software Engineer.
 
