@@ -4,7 +4,7 @@ export const siteConfig = {
   description: "Portfolio website of Michael McClelland",
   accentColor: "#1d4ed8",
   social: {
-    email: "michael@example.com",
+    email: "michaeljamesmcclelland@gmail.com",
     linkedin: "https://www.linkedin.com/in/michael-mcclelland-b82439113/",
     github: "https://www.github.com/theognis1002",
   },
