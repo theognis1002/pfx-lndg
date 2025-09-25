@@ -84,25 +84,25 @@ export const siteConfig = {
     {
       school: "Google Cloud",
       degree: "Associate Cloud Engineer Certification",
-      dateRange: "Jan 2025 - Jan 2028",
+      dateRange: "Jan 2025",
       achievements: [],
     },
     {
       school: "Google Cloud",
       degree: "Cloud Digital Leader Certification",
-      dateRange: "Dec 2024 - Dec 2027",
+      dateRange: "Dec 2024",
       achievements: [],
     },
     {
       school: "AWS",
       degree: "AWS Certified Developer – Associate",
-      dateRange: "Aug 2024 - Aug 2027",
+      dateRange: "Aug 2024",
       achievements: [],
     },
     {
       school: "Databricks",
       degree: "Academy Accreditation - Generative AI Fundamentals",
-      dateRange: "Aug 2024 - Aug 2026",
+      dateRange: "Aug 2024",
       achievements: [],
     },
     {
@@ -114,13 +114,13 @@ export const siteConfig = {
     {
       school: "AWS",
       degree: "AWS Certified Solutions Architect – Associate",
-      dateRange: "Sep 2022 - Sep 2025",
+      dateRange: "Sep 2022",
       achievements: [],
     },
     {
       school: "AWS",
       degree: "AWS Certified Cloud Practitioner",
-      dateRange: "Jan 2021 - Sep 2025",
+      dateRange: "Jan 2021",
       achievements: [],
     },
   ],
