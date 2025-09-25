@@ -33,13 +33,13 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Stealth Mode AI Startup",
-      title: "Co-Founder / Technical Lead",
+      company: "Wraith Security",
+      title: "CTO & Co-Founder",
       dateRange: "Jul 2024 - Present",
       bullets: [
-        "Spearheaded end-to-end development of SaaS application powered by AI/LLMs using Python, Django, React.js, Next.js, and AWS",
-        "Developed AI-driven workflow integrating real-time phone call handling with external partner APIs and POS systems",
-        "Led startup team of 3 offshore backend and frontend developers, delivering high-impact projects on time and within budget",
+        "Co-founded and lead technical development of autonomous AI security agent platform delivering continuous pentesting and vulnerability scanning",
+        "Architected ready-to-deploy security solutions that provide actionable insights with reduced noise and immediate remediation capabilities",
+        "Built comprehensive security automation platform using AI/ML technologies to enhance software security posture for enterprise clients",
       ],
     },
     {
