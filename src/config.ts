@@ -10,7 +10,49 @@ export const siteConfig = {
   },
   aboutMe:
     "Lead Software Engineer with over 9+ years of experience in full stack development, software engineering, and software management. A proven track record of driving innovation and delivering high-impact solutions within the financial services and small business lending industry. Excited about tackling challenging problems and collaborating with skilled teams to drive continuous improvement and success.",
-  skills: ["Python", "Django", "React", "Next.js", "Vue.js", "Go", "PostgreSQL", "MySQL", "MongoDB", "Redis", "AWS", "Google Cloud", "Docker", "Kubernetes"],
+  skills: [
+    {
+      title: "Programming Languages & Frameworks",
+      items: [
+        "Python",
+        "JavaScript / TypeScript",
+        "Go",
+        "React.js / Next.js",
+        "Node.js / Express.js",
+        "Django / Django REST Framework",
+        "FastAPI / Flask",
+      ],
+    },
+    {
+      title: "Cloud & Infrastructure",
+      items: [
+        "Linux",
+        "AWS / GCP / Azure",
+        "Docker / Docker-Compose",
+        "Kubernetes",
+        "Terraform",
+      ],
+    },
+    {
+      title: "AI & Intelligent Systems",
+      items: [
+        "AI / Generative AI",
+        "AI Agents / Agentic Workflows",
+        "Retrieval-Augmented Generation (RAG)",
+        "Vector Databases",
+      ],
+    },
+    {
+      title: "Databases & Message Queues",
+      items: [
+        "PostgreSQL / MySQL",
+        "MongoDB",
+        "Redis",
+        "Elasticsearch",
+        "Celery / RabbitMQ / Kafka",
+      ],
+    },
+  ],
   projects: [
     {
       name: "MCP Gateway & Registry",

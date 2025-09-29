@@ -1,6 +1,10 @@
 ---
 import { siteConfig } from "../config";
 
+const hasSkills = Array.isArray(siteConfig.skills)
+  && siteConfig.skills.some(
+    (category) => Array.isArray(category.items) && category.items.length > 0,
+  );
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
@@ -97,7 +101,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
         </div>
       </div>
 
-      <div class="hidden md:block flex flex-col md:items-end gap-4">
+      <div class="hidden md:flex flex-col md:items-end gap-4">
         <nav class="flex gap-x-8">
           <a
             href="#about"
@@ -105,12 +109,12 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             >About</a
           >
           {
-            hasProjects && (
+            hasSkills && (
               <a
-                href="#projects"
+                href="#skills"
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
-                Projects
+                Skills
               </a>
             )
           }
@@ -134,11 +138,21 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               </a>
             )
           }
+          {
+            hasProjects && (
+              <a
+                href="#projects"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Projects
+              </a>
+            )
+          }
         </nav>
-        <p class="text-sm text-gray-500">
+        <!-- <p class="text-sm text-gray-500">
           © {new Date().getFullYear()}
           {siteConfig.name}. All rights reserved.
-        </p>
+        </p> -->
       </div>
     </div>
   </div>

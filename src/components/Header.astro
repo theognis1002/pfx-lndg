@@ -1,6 +1,10 @@
 ---
 import { siteConfig } from "../config";
 
+const hasSkills = Array.isArray(siteConfig.skills)
+  && siteConfig.skills.some(
+    (category) => Array.isArray(category.items) && category.items.length > 0,
+  );
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
@@ -21,13 +25,13 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
         </a>
       </li>
       {
-        hasProjects && (
+        hasSkills && (
           <li>
             <a
-              href="#projects"
+              href="#skills"
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Projects
+              Skills
             </a>
           </li>
         )
@@ -52,6 +56,18 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
               Certifications
+            </a>
+          </li>
+        )
+      }
+      {
+        hasProjects && (
+          <li>
+            <a
+              href="#projects"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Projects
             </a>
           </li>
         )
