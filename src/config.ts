@@ -31,19 +31,22 @@ export const siteConfig = {
         "Docker / Docker-Compose",
         "Kubernetes",
         "Terraform",
+        "CI/CD",
       ],
     },
     {
-      title: "AI & Intelligent Systems",
+      title: "AI & Generative AI",
       items: [
-        "AI / Generative AI",
+        // "AI / Generative AI",
         "AI Agents / Agentic Workflows",
+        "LangChain / LangGraph / crewAI",
+        "Agent Development Kit (ADK)",
         "Retrieval-Augmented Generation (RAG)",
         "Vector Databases",
       ],
     },
     {
-      title: "Databases & Message Queues",
+      title: "Databases & More",
       items: [
         "PostgreSQL / MySQL",
         "MongoDB",
