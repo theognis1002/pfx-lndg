@@ -72,7 +72,7 @@ export const siteConfig = {
       skills: ["TypeScript", "Chrome Extension", "AI", "Social Media APIs"],
     },
     {
-      name: "Spotify Clone for Ticketing Industry",
+      name: "Spotify Clone UI for Ticketing Industry",
       description:
         "Custom Spotify UI clone built for a client in the resale ticketing industry. Features modern responsive design with seamless user experience for ticket browsing and management.",
       link: "https://www.seapigtickets.com/",
@@ -82,10 +82,10 @@ export const siteConfig = {
   experience: [
     {
       company: "Wraith Security",
-      title: "CTO & Co-Founder",
+      title: "Founder",
       dateRange: "Jul 2024 - Present",
       bullets: [
-        "Co-founded and lead technical development of autonomous AI security agent platform delivering continuous pentesting and vulnerability scanning",
+        "Founded and lead technical development of autonomous AI security agent platform delivering continuous pentesting and vulnerability scanning",
         "Architected ready-to-deploy security solutions that provide actionable insights with reduced noise and immediate remediation capabilities",
         "Built comprehensive security automation platform using AI/ML technologies to enhance software security posture for enterprise clients",
       ],
